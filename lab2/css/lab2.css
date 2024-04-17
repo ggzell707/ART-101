@@ -1,0 +1,21 @@
+h1{
+    color: rgb(255, 0, 191);
+    font-size: 250%;
+    font-family:'Courier New', Courier, monospace
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 20px;
+    margin-left: 10px;
+    color:rgb(150, 0, 112)
+}
+
+#content{
+    background-color: #000000; 
+    width: 500px; 
+    min-height: 300px;
+padding: 10px; 
+margin: 10px;
+border: solid 1px #444444; 
+font-size:20px;
+}
