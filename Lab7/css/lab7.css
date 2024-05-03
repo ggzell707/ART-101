@@ -2,14 +2,14 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
-    background-color: rgb(243, 159, 142);
+    background-color: rgb(149, 167, 144);
   }
   
   .minor-section {
       padding: 10px;
       margin-bottom: 10px;
-      border: solid 1px #9b6f89;
-      background-color: #e6d0b4;
+      border: solid 1px #ffffff;
+      background-color: #b58fa8;
     }
     
     .screenshot-photo {
@@ -23,19 +23,19 @@ body {
       letter-spacing: 5px;
       word-spacing: 5px;
       font-size: 200%;
-      color:rgb(25, 0, 101);
+      color:rgb(118, 135, 122);
       text-align: center;
     }
     
     h2 {
-      color: #8f3165;
+      color: #655562;
     }
     
     p {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color:rgb(135, 96, 147);
+      color:rgb(114, 96, 116);
     }
-    .lab6js-photo {
+    .lab7js-photo {
       max-width: 700px;
       display: block;
     margin-left: auto;
