@@ -1,20 +1,27 @@
-
 // index.js -  JavaScript Events and Forms
 // Author: Giselle Torres
 // Date: May 20, 2024
 
-//credit ChatGpt
-function sortString(inputString) {
-    let new_word = [];
-    let input_size = inputString.length;
 
-    for(let i=0; i < input_size; i++) {
-        let rand_int = Math.floor(Math.random() * input_size); //correct calculation for a ranbdom index
-        new_word.push(inputString[rand_int]); 
+//credit: Chatgpt
+
+function sortString(inputString) {
+    //Convert the input string to an array of characters 
+    let charsArray = inputString.split('');
+
+    //Shuffle the array using the Fisher-Yates algorithm 
+    for(let i= charsArray.length -1; i>0; i--) {
+        //generate a random index
+        let randIndex = Math.floor(Math.random() * (i+1)); 
+
+        //swap the current element with the element at random index
+        [charsArray[i], charsArray[randIndex]] = [charsArray[randIndex], charsArray[i]];
     }
 
-    return new_word.join('');
-}
+        //join the shuffled array back into a string
+        return charsArray.join('');
+    }
+
 
 
   // click listener for button
@@ -29,7 +36,4 @@ function sortString(inputString) {
   // append a new div to our output div
   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
-
-
-
 
