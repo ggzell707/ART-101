@@ -1,4 +1,4 @@
-// index.js -  Consoles
+// index.js -  Conditionals
 // Author: Giselle Torres
 // Date: May 23, 2024
 
