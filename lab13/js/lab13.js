@@ -1,6 +1,6 @@
 // index.js -  Conditionals
 // Author: Giselle Torres
-// Date: May 23, 2024
+// Date: May 26, 2024
 
 maxFactors = 4;
 
